@@ -130,7 +130,7 @@ dmypy.json
 
 # JetBrains stuff
 # Reference: https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-.idea/**/workspace.xml
+.idea/
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
