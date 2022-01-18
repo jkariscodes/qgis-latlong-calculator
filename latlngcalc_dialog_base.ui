@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Latitue / Longitude Calculator</string>
+   <string>Latitude / Longitude Calculator</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0" colspan="2">
@@ -64,7 +64,7 @@
     </widget>
    </item>
    <item row="1" column="3">
-    <widget class="QComboBox" name="comboBxNS">
+    <widget class="QComboBox" name="comboNS">
      <item>
       <property name="text">
        <string>North</string>
@@ -75,28 +75,6 @@
        <string>South</string>
       </property>
      </item>
-    </widget>
-   </item>
-   <item row="1" column="4">
-    <widget class="QDoubleSpinBox" name="spbLongDecDeg">
-     <property name="suffix">
-      <string> Dec Deg</string>
-     </property>
-     <property name="decimals">
-      <number>5</number>
-     </property>
-     <property name="minimum">
-      <double>-90.000000000000000</double>
-     </property>
-     <property name="maximum">
-      <double>90.000000000000000</double>
-     </property>
-     <property name="singleStep">
-      <double>0.010000000000000</double>
-     </property>
-     <property name="value">
-      <double>4.000000000000000</double>
-     </property>
     </widget>
    </item>
    <item row="2" column="0" colspan="2">
@@ -126,7 +104,7 @@
     </widget>
    </item>
    <item row="3" column="1">
-    <widget class="QSpinBox" name="spinLongM">
+    <widget class="QSpinBox" name="spbLongM">
      <property name="suffix">
       <string> Min</string>
      </property>
@@ -149,7 +127,7 @@
     </widget>
    </item>
    <item row="3" column="3">
-    <widget class="QComboBox" name="comboBxEW">
+    <widget class="QComboBox" name="comboEW">
      <item>
       <property name="text">
        <string>East</string>
@@ -163,6 +141,28 @@
     </widget>
    </item>
    <item row="3" column="4">
+    <widget class="QDoubleSpinBox" name="spbLongDecDeg">
+     <property name="suffix">
+      <string> Dec Deg</string>
+     </property>
+     <property name="decimals">
+      <number>5</number>
+     </property>
+     <property name="minimum">
+      <double>-90.000000000000000</double>
+     </property>
+     <property name="maximum">
+      <double>90.000000000000000</double>
+     </property>
+     <property name="singleStep">
+      <double>0.010000000000000</double>
+     </property>
+     <property name="value">
+      <double>4.000000000000000</double>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="4">
     <widget class="QDoubleSpinBox" name="spbLatDecDeg">
      <property name="suffix">
       <string> Dec Deg</string>
